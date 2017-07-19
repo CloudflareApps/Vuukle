@@ -1,0 +1,30 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "./source/app.js"
+      },
+      {
+        "type": "script",
+        "src": "./vendor/vuukleCF.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "comments-location": {
+        "order": 0,
+        "title": "Orientation",
+        "default": "right",
+        "type": "string",
+        "format": "radios",
+        "enum": ["left", "right"],
+        "enumNames": {
+          "left": "Left",
+          "right": "Right"
+        }
+      }
+    }
+  }
+}
